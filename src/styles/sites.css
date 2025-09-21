@@ -1,0 +1,115 @@
+.sites-content {
+	color: white;
+	padding: 2rem;
+	width: 90%;
+	max-width: 1600px;
+}
+
+.sites-content h2 {
+	font-size: 3rem;
+	margin-bottom: 1rem;    
+}
+
+.sites-content > p {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.sites-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.site-card {
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.site-card:hover {
+	transform: translateY(-5px);
+}
+
+.card-image {
+	position: relative;
+	height: 250px;
+	overflow: hidden;
+}
+
+.card-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.site-card:hover .card-image img {
+	transform: scale(1.1);
+}
+
+.location-label {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 1rem;
+	backdrop-filter: blur(10px);
+    text-transform: uppercase;
+}
+
+.card-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.9),
+		rgba(0, 0, 0, 0.7),
+		transparent
+	);
+	color: white;
+	padding: 1rem;
+	transform: translateX(-100%);
+	transition: transform 0.4s ease;
+	backdrop-filter: blur(3px);
+}
+
+.site-card:hover .card-description {
+	transform: translateX(0);
+}
+
+.card-description h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+.card-description p {
+	font-size: 0.9rem;
+	line-height: 1.4;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.sites-cards {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+
+	.card-image {
+		height: 200px;
+	}
+
+	.sites-content h2 {
+		font-size: 2rem;
+	}
+}
