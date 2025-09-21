@@ -16,7 +16,7 @@ const Sites = () => {
 							/>
 							<div className="location-label bruxelles">Bruxelles</div>
 						</div>
-						<div className="card-description">
+						<div className="card-description bruxelles">
 							<h3>Nemo 33 Bruxelles</h3>
 							<p>
 								Bassin 40m eau chaude + Bassin extérieur froid.
@@ -32,7 +32,7 @@ const Sites = () => {
 							/>
 							<div className="location-label scouffleny">Scouffleny</div>
 						</div>
-						<div className="card-description">
+						<div className="card-description scouffleny">
 							<h3>Nemo Scouffleny</h3>
 							<p>
 								Carrière 15 ha, plongée, SUP, kayak, foodtruck
@@ -46,7 +46,7 @@ const Sites = () => {
 							<img src="/img/NemoGeneve.jpeg" alt="Nemo Genève" />
 							<div className="location-label geneve">Genève</div>
 						</div>
-						<div className="card-description">
+						<div className="card-description geneve">
 							<h3>Nemo Genève</h3>
 							<p>Bassin 20 m eau chaude, ambiance familiale</p>
 						</div>

@@ -49,7 +49,6 @@
 	position: absolute;
 	top: 1rem;
 	left: 1rem;
-	/* background: rgba(0, 0, 0, 0.8); */
 	color: white;
 	padding: 0.5rem 1rem;
 	border-radius: 20px;
@@ -59,13 +58,28 @@
 	text-transform: uppercase;
 }
 .bruxelles {
-	background: var(--blue-abyssal);
+	background: linear-gradient(
+		to top,
+		var(--blue-abyssal),
+		var(--blue-abyssal),
+		transparent
+	);
 }
 .scouffleny {
-	background: var(--vert-emeraude);
+	background: linear-gradient(
+		to top,
+		var(--vert-emeraude),
+		var(--vert-emeraude),
+		transparent
+	);
 }
 .geneve {
-	background: var(--blue-glacier);
+	background: linear-gradient(
+		to top,
+		var(--blue-glacier),
+		var(--blue-glacier),
+		transparent
+	);
 }
 
 .card-description {
@@ -73,12 +87,6 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(
-		to top,
-		rgba(0, 0, 0, 0.9),
-		rgba(0, 0, 0, 0.7),
-		transparent
-	);
 	color: white;
 	padding: 1rem;
 	transform: translateX(-100%);
