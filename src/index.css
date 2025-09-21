@@ -1,3 +1,12 @@
+:root {
+	--blue-abyssal: #002f4b;
+	--turquoise-lumineux: #0019b7;
+	--corail-energie: #ff5a5f;
+	--vert-emeraude: #00796b;
+	--blue-glacier: #5dadec;
+	--sable-clair: #f5e7da;
+}
+
 * {
 	margin: 0;
 	padding: 0;

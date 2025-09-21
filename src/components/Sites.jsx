@@ -14,7 +14,7 @@ const Sites = () => {
 								src="/img/NemoBruxelles.jpg"
 								alt="Nemo Bruxelles"
 							/>
-							<div className="location-label">Bruxelles</div>
+							<div className="location-label bruxelles">Bruxelles</div>
 						</div>
 						<div className="card-description">
 							<h3>Nemo 33 Bruxelles</h3>
@@ -30,7 +30,7 @@ const Sites = () => {
 								src="/img/NemoScouffleny.jpg"
 								alt="Nemo Scouffleny"
 							/>
-							<div className="location-label">Scouffleny</div>
+							<div className="location-label scouffleny">Scouffleny</div>
 						</div>
 						<div className="card-description">
 							<h3>Nemo Scouffleny</h3>
@@ -44,7 +44,7 @@ const Sites = () => {
 					<div className="site-card">
 						<div className="card-image">
 							<img src="/img/NemoGeneve.jpeg" alt="Nemo Genève" />
-							<div className="location-label">Genève</div>
+							<div className="location-label geneve">Genève</div>
 						</div>
 						<div className="card-description">
 							<h3>Nemo Genève</h3>
