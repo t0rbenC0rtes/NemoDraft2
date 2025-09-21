@@ -20,7 +20,7 @@ const Hero = () => {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ctaRef.current,
-          start: "top 70%", // when CTA is 80% down viewport
+          start: "top 65%", // when CTA is 80% down viewport
           toggleActions: "play none none reverse", // animate in, reverse on scroll up
         },
       }

@@ -1,6 +1,6 @@
-.sites-content {	
+.sites-content {
 	padding: 2rem;
-	width: 90%;	
+	width: 90%;
 }
 
 .sites-content > p {
@@ -21,6 +21,7 @@
 	overflow: hidden;
 	cursor: pointer;
 	transition: transform 0.3s ease;
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
 .site-card:hover {
