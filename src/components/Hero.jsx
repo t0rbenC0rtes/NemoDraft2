@@ -32,7 +32,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div id="accueil" className="hero-container">
+    <div id="home" className="hero-container">
       <div className="hero-content">
         <div className="hero-title">
           THE <br /> ORIGINAL <br /> DEEP DIVING <br /> POOL

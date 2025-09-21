@@ -53,7 +53,7 @@ const Navbar = () => {
 					</a>
 				</div>
 				<div className="navbarLinks">
-					<a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('accueil'); }}>Accueil</a>
+					<a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Accueil</a>
 					<a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('sites'); }}>Sites</a>
 					<a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('activites'); }}>Activités</a>
 					<a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('restaurant'); }}>Restaurant</a>

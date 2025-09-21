@@ -1,9 +1,9 @@
-import "../styles/events.css";
+import "../styles/section.css";
 
 const Events = () => {
   return (
-    <div id="evenements" className="events-container">
-      <div className="events-content">
+    <div id="evenements" className="section-container">
+      <div className="section-content">
         <h2>Events</h2>
         <p>Join our diving events, competitions, and special underwater experiences.</p>
       </div>

@@ -1,9 +1,9 @@
-import "../styles/webshop.css";
+import "../styles/section.css";
 
 const Webshop = () => {
   return (
-    <div id="webshop" className="webshop-container">
-      <div className="webshop-content">
+    <div id="webshop" className="section-container">
+      <div className="section-content">
         <h2>Webshop</h2>
         <p>Shop for diving equipment, gear, and exclusive Nemo merchandise.</p>
       </div>
