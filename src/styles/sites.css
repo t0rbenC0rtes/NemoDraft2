@@ -1,13 +1,6 @@
-.sites-content {
-	color: white;
+.sites-content {	
 	padding: 2rem;
-	width: 90%;
-	max-width: 1600px;
-}
-
-.sites-content h2 {
-	font-size: 3rem;
-	margin-bottom: 1rem;    
+	width: 90%;	
 }
 
 .sites-content > p {
@@ -62,7 +55,7 @@
 	font-weight: 600;
 	font-size: 1rem;
 	backdrop-filter: blur(10px);
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .card-description {

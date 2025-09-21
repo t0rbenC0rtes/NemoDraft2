@@ -5,7 +5,7 @@ const Sites = () => {
 	return (
 		<div id="sites" className="section-container">
 			<div className="sites-content">
-				<h2>Nos Sites</h2>
+				<h1 className="hero-title">Nos Sites</h1>
 
 				<div className="sites-cards">
 					<div className="site-card">

@@ -21,6 +21,7 @@
 	color: rgba(15, 79, 144, 0.8);
 	position: relative;
 	z-index: 2;
+	text-transform: uppercase;
 }
 
 .ctaButtons {
