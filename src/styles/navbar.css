@@ -1,0 +1,49 @@
+.navbar {
+	border-radius: 12px;
+	padding: 0.5rem 1rem;
+	width: 95%;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.3);
+	.navbarContent {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		img.logo {
+			height: 2rem;       
+		}
+	}
+	.navbarLinks {
+		display: flex;
+		gap: 1rem;
+	}
+	a {
+		color: white;
+		font-size: 0.75rem;
+		transition: color 0.3s;
+        text-decoration: none;
+		position: relative;
+		display: inline-block;
+		
+		/* Create the underline effect */
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			width: 0;
+			height: 2px;
+			background-color: aquamarine;
+			transition: width 0.3s ease-out;
+		}
+		
+		&:hover {
+			color: aquamarine;
+			
+			/* Animate underline from left to right */
+			&::after {
+				width: 100%;
+			}
+		}
+	}
+}

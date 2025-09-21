@@ -1,0 +1,66 @@
+.hamburger-header {
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	padding: 0.5rem 1rem;
+	width: 95%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hamburger-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.hamburger-logo {
+	height: 2rem;
+}
+
+.hamburger-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+	color: turquoise;
+}
+
+.hamburger-button:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-button:active {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-menu {
+	border-radius: 12px;
+	padding: 1rem;
+	background-color: rgba(165, 246, 255, 0.3);
+	backdrop-filter: blur(6px);	
+    text-transform: uppercase;
+}
+
+.hamburger-nav {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.hamburger-nav a {
+	text-decoration: none;
+	color: black;
+	padding: 0.75rem 1rem;
+	border-radius: 8px;
+	transition: background-color 0.2s ease;
+	text-align: center;
+	font-weight: 500;
+}
