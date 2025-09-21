@@ -33,7 +33,7 @@ const Sites = () => {
 							<div className="location-label scouffleny">Scouffleny</div>
 						</div>
 						<div className="card-description scouffleny">
-							<h3>Nemo Scouffleny</h3>
+							<h3>Nemo 33 Scouffleny</h3>
 							<p>
 								Carrière 15 ha, plongée, SUP, kayak, foodtruck
 								terroir
@@ -47,7 +47,7 @@ const Sites = () => {
 							<div className="location-label geneve">Genève</div>
 						</div>
 						<div className="card-description geneve">
-							<h3>Nemo Genève</h3>
+							<h3>Nemo 33 Genève</h3>
 							<p>Bassin 20 m eau chaude, ambiance familiale</p>
 						</div>
 					</div>
